@@ -1,0 +1,183 @@
+.navbar{
+    background-color: #454c50 !important;
+    position: sticky;
+   top:0;
+   z-index: 1;
+}
+.logo_codoAcodo{
+    width: 30%;
+    margin-left: 2%;
+}
+.texto_codoAcodo{
+    color: white;
+    font-size: 2em;
+}
+.container_logoYTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%
+}
+.container_navbar{
+    display: flex!important;
+    justify-content: flex-end;
+    position: relative;
+   
+}
+
+.container{
+    margin-right: 2%;
+}
+
+.navbar_link_conferencia{
+    color: white !important;
+    font-size: 1.5rem;
+}
+.navbar_link_oradores, .navbar_link_lugar, .navbar_link_conviertete{
+    color: rgb(172, 168, 185);
+    font-size: 1.5rem;
+    
+}
+
+.item_nav{
+    font-size: 1.2em;
+    transition: 1.5s;
+}
+
+
+.navbar_link_tickets{
+    color: rgba(23, 209, 60, 0.72);
+    font-size: 1.5rem;
+}
+
+.btn-orador:hover{
+    background-color: gray !important;
+} 
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(23, 209, 60, 0.72);
+    --bs-btn-border: rgba(23, 209, 60, 0.72);
+    --bs-btn-border-color: rgba(23, 209, 60, 0.72);
+}    
+
+.container_section_conf{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagenes/ba1.jpg);
+    height: 90vh;
+    background-repeat:no-repeat;
+    position: absolute;
+    top:-10%;
+    z-index: -1;
+    width: 100%;
+
+} 
+.container_title_p{
+    margin-top: 20%;
+    color: white;
+    width: 40%;
+
+}
+
+.article_container{
+    display: flex ;
+    justify-content: end ;
+    margin-right: 5%;
+}
+.container_h1_evento, .container_botones_section{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.h1_evento{
+     font-size: 2.5rem;
+
+}
+.main_oradores{
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+    
+    }
+.container_cards_oradores{
+    display: flex;
+    justify-content: space-around;
+    width: 100% !important;
+    margin-left: 15px;
+}
+
+.btn-orador, .btn-comprar{
+    margin-left: 5px;
+}
+.article_container_octubre{
+    background-color: #454c50 !important;
+    color: white;
+    margin-top: 1%;
+    
+}
+
+.js, .react, .negocios, .startups{
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.js{
+    background-color: rgb(255, 255, 49);
+    
+}
+
+.react{
+    color: white;
+    background-color: rgb(49, 255, 207);
+
+}
+
+.negocios{
+    background-color: grey;
+    color: white;
+}
+
+.startups{
+    background-color: red;
+}
+
+.img_honolulu {
+    margin-left: -1% !important;
+}
+
+.title_octubre{
+    font-size: 1.5rem;
+}
+.card{
+    margin-left: 5%;
+  
+}
+
+.form_orador{
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 2%;
+  
+}
+
+.btn-enviar {
+    background-color: rgba(13, 144, 39, 0.72);
+    color:white
+}
+
+.footer{
+    padding:2%;
+    list-style: none;
+    background: rgb(33,30,31);
+    background: linear-gradient(97deg, rgba(33,30,31,1) 8%, rgba(30,27,69,1) 77%);
+ 
+}
+
+.footer a {
+    color: white !important;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #454c50 !important;
+}
