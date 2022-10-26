@@ -66,11 +66,16 @@
     height: 90vh;
     background-repeat:no-repeat;
     position: absolute;
-    top:-10%;
+    top:0%;
     z-index: -1;
     width: 100%;
 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 750px); 
+    justify-content: center;
+
 } 
+
 .container_title_p{
     margin-top: 20%;
     color: white;
@@ -81,7 +86,7 @@
 .article_container{
     display: flex ;
     justify-content: end ;
-    margin-right: 5%;
+    margin-left: 15%;
 }
 .container_h1_evento, .container_botones_section{
     display: flex;
@@ -99,11 +104,14 @@
     
     }
 .container_cards_oradores{
-    display: flex;
-    justify-content: space-around;
     width: 100% !important;
-    margin-left: 15px;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px); 
+    gap:40px;
+    padding: 40px;
+    justify-content: center;
+} 
+
 
 .btn-orador, .btn-comprar{
     margin-left: 5px;
@@ -181,3 +189,6 @@
 .footer a:hover{
     color: #454c50 !important;
 }
+
+
+ 
