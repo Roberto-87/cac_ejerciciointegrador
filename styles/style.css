@@ -69,7 +69,6 @@
     top:0%;
     z-index: -1;
     width: 100%;
-
     display: grid;
     grid-template-columns: repeat(auto-fill, 750px); 
     justify-content: center;
